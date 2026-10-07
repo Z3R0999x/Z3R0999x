@@ -32,14 +32,6 @@ Portfolio: [zerodevv.nl](https://zerodevv.nl)
 
 ## Projects
 
-### LostMC Club Bot
-Discord bot for the FiveM roleplay club *The Lost MC*, running live.
-The entire Discord server is defined in config files (server-as-code): roles and channels are linked from config, and the setup script never deletes anything. The bot tracks club operations: roster, prospect process, church, ride-outs, strikes, and a treasury that keeps clean and dirty money separate. The treasury stays in sync with the in-game bank through a webhook channel, and mistakes are fixed with correction entries instead of rewriting history. Includes a `doctor` command that checks config and permissions, and smoke tests that run without Discord.
-`Node.js` `discord.js v14` `SQLite`
-
-### [LostMC Pages](https://github.com/Z3R0999x/lostmc-pages)
-Static site with the privacy policy and terms of service for the club.
-
 ### [zerodevv.nl](https://zerodevv.nl)
 My personal portfolio, bilingual (Dutch / English), served behind Cloudflare with CSP and HSTS headers.
 `Next.js 16` `TypeScript` `Tailwind CSS 4`
@@ -55,6 +47,7 @@ FiveM learning project: a police information system with an NUI and a database.
 
 I also build custom projects for clients. That code is private and owned by the clients, so it is not published here.
 
+- **The Lost MC**: Discord bot and a static site with privacy policy and terms for a FiveM roleplay club
 - **Kinsja**: large modular community bot, website and a Discord Activity (Treehouse Quiz)
 - **Romz**: community bot and website with Discord login
 - **Ashley**: a set of seven bots running together under one pm2 config
